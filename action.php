@@ -1,5 +1,5 @@
 <?php 
-$conn = mysqli_connect('bvbnvv5bsatlr4clabku-mysql.services.clever-cloud.com','udeu6vn0ie2a7qfj','lHDvTl7q6kmkCE2bG6Z5','bvbnvv5bsatlr4clabku');
+$conn = PDO('bvbnvv5bsatlr4clabku-mysql.services.clever-cloud.com','udeu6vn0ie2a7qfj','lHDvTl7q6kmkCE2bG6Z5','bvbnvv5bsatlr4clabku');
 $email = $_POST['email'];
 $pass = $_POST['pass'];
 
